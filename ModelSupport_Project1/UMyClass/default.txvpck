@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="ewtkt4in1xi_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Project1:UMyClass.TMyClass">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,188,161" />
+      <reference referencedUin="delphi:e_field:src:Project1:UMyClass.TMyClass.Connection" />
+      <reference referencedUin="delphi:e_field:src:Project1:UMyClass.TMyClass.ADOQuery" />
+      <reference referencedUin="delphi:e_field:src:Project1:UMyClass.TMyClass.DataSource" />
+      <reference referencedUin="delphi:e_method:src:Project1:UMyClass.TMyClass.GetADOQuery()" />
+      <reference referencedUin="delphi:e_method:src:Project1:UMyClass.TMyClass.GetDataSource()" />
+      <reference referencedUin="delphi:e_method:src:Project1:UMyClass.TMyClass.create()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:UMyClass.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="wr2timadueg_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Project1:UConnection.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:UConnection.TConnection">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="760,240,236,116" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Project1:UConnection.TConnection.ADOConnection" />
+      <reference referencedUin="delphi:e_method:src:Project1:UConnection.TConnection.GetADOConnection()" />
+      <reference referencedUin="delphi:e_method:src:Project1:UConnection.TConnection.create()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:UMyClass.TMyClass">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="420,240,188,161" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Project1:UMyClass.TMyClass.Connection" />
+      <reference referencedUin="delphi:e_field:src:Project1:UMyClass.TMyClass.ADOQuery" />
+      <reference referencedUin="delphi:e_field:src:Project1:UMyClass.TMyClass.DataSource" />
+      <reference referencedUin="delphi:e_method:src:Project1:UMyClass.TMyClass.GetADOQuery()" />
+      <reference referencedUin="delphi:e_method:src:Project1:UMyClass.TMyClass.GetDataSource()" />
+      <reference referencedUin="delphi:e_method:src:Project1:UMyClass.TMyClass.create()" />
+      <reference referencedUin="delphi:l_ast:src:Project1:UMyClass.TMyClass.Connection">
+        <property name="sourceAnchor" value="608,298" />
+        <property name="targetAnchor" value="760,298" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit1.TForm1">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="100,220,122,205" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Edit1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Button1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Button2" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.DBGrid1" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.Button1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.Button2Click(System.TObject)" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.MyClass" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.create(System.Classes.TComponent)" />
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.TForm1.MyClass">
+        <property name="sourceAnchor" value="222,320" />
+        <property name="targetAnchor" value="420,320" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>
